@@ -5,7 +5,8 @@
 const ProjectNames = 
 [
     "school_curriculums",
-    "tfhe"
+    "tfhe",
+    "speech_emotion"
 ]
 
 let ProjectText = [];

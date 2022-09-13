@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
 
-#school_curriculums_title
+#speech_emotion_title
 {
     color: rgba(255, 255, 255, 255);
     font-family: 'Major Mono Display', monospace;
@@ -10,19 +10,12 @@
     padding-bottom: 25px;
 }
 
-#school_curriculums_tldr
+#speech_emotion_tldr
 {
     text-align: center;
 }
 
-#github_link_school_curriculums
-{
-    align-self: center;
-    text-align: center;
-    font-size: 50px;
-}
-
-#school_curriculums_body
+#speech_emotion_body
 {
     text-align: center;
     font-family: 'cascadia', 'monospace';
