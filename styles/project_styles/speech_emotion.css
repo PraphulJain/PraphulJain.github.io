@@ -4,10 +4,10 @@
 {
     color: rgba(255, 255, 255, 255);
     font-family: 'VT323', 'monospace';
-    font-size: 60pt;
+    font-size: 55pt;
     letter-spacing: +0.7rem;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 #speech_emotion_tldr
