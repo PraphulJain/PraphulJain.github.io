@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@font-face
+{
+    font-family: Cinzel;
+    src: url("fonts/Cinzel.ttf");
+}
+
+#self_notes_title
+{
+    color: rgba(255, 255, 255, 255);
+    font-family: 'VT323', 'monospace';
+    font-size: 55pt;
+    letter-spacing: +0.7rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#self_notes_tldr
+{
+    text-align: center;
+}
+
+#github_link_self_notes
+{
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+#self_notes_body
+{
+    text-align: center;
+    font-family: 'cascadia', 'monospace';
+}
+
+.self_notes_text
+{
+    color: rgba(255, 255, 255, 255);
+    font-size: 1.8rem; 
+    letter-spacing: -.05rem;
+} 
