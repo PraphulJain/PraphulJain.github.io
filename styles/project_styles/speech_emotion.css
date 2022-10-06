@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@font-face
+{
+    font-family: Cinzel;
+    src: url("fonts/Cinzel.ttf");
+}
+
 
 #speech_emotion_title
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'VT323', 'monospace';
+    font-family: 'Cinzel', monospace;
     font-size: 55pt;
     letter-spacing: +0.7rem;
     text-align: center;

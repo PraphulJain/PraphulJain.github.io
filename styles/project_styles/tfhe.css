@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
-@font-face
-{
-    font-family: Cinzel;
-    src: url("fonts/Cinzel.ttf");
-}
 
 #tfhe_title
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'Cinzel', monospace;
+    font-family: 'VT323', 'monospace';
     font-size: 4.8rem; 
     letter-spacing: +0.7rem;
     text-align: center;
