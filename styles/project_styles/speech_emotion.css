@@ -21,6 +21,13 @@
     text-align: center;
 }
 
+#presentation_link_speech_emotion
+{
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
 #speech_emotion_body
 {
     text-align: center;
