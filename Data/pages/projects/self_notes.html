@@ -20,9 +20,12 @@
 
 <div id="self_notes_body">
     <div class="self_notes_text">
-        dddd
+        Making notes is a tedious work and even more difficult is to make good systematic notes while the lecture is going on. In this project, we setup a pipeline to convert lecture videos to notes, and in backend a knowledge graph which helps in question answers and even a less expensive representation of the lecture.
         <br>
         <br>
-        dddd
+        To achieve our task, we used the speech to text api openly available by google, which was then passed to the summarizing model where the text is reduced to around 40% of the complete text which might not be completely human like summary but could be understood like notes.
+        <br>
+        <br>
+        This text is also passed to a pipeline similar to my school curriculums project which uses entity linker and coreference resolution models of spacy and then passing to stanfords openIE model to form knowledge graphs, which can be used for quick Q&As and also for further processing in the future..
     </div>
 </div>
