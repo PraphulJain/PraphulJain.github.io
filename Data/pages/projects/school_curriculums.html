@@ -19,12 +19,12 @@
 
 <div id="school_curriculums_body">
     <div class="school_curriculums_text">
-        As the world keeps on changing, the school curriculums also must evolve to keep up the education quality, therefore, in this project we were tasked with comparing different curriculums based on there contents and the results of students in the exams.
+        As the world keeps on changing, the school curriculums also must evolve to keep up the education quality, therefore, in this project we took on a task to compare different curriculums based on there contents and the results of students in the exams.
         <br>
         <br>
-        As a part of this we used image processing (tesseract OCR) to extract text from pdf versions of school textbooks, which was then processed and transformed into knowledge graph which was used to compare the topics and to what depths are they covered in different curriculums.
+        As a part of this, first to convert images in the pdf of books to text, we used openCV to extract proper segments as some textbooks might have columns, which were then passed to tesseract OCR which converts them into text which can be further processed.
         <br>
         <br>
-        This project not only encouraged us to search the current best available solutions, it also made us to present and report the results in a systematic way.
+        This extracted text wont be accurate and not very good for knowledge graph formation, so to improve the data, we perform basic processing like removing extra spaces, putting the data into lowercase, we also used neuralcoref model of spacy for coreference resolution to get a better knowledge graph. This data is then passed to stanford openIE model which converts it to triplets after which we use pyvis library to display it as knowledge graph. One output can be seen by the play button above.
     </div>
 </div>
